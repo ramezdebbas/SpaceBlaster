@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-  <Identity Name="3bc9bba0-411f-4dfd-b64f-7295e2b2a70e" Version="1.0.0.0" Publisher="CN=ali.sufiyan" />
+  <Identity Name="1d6b2b26-f3cb-44cd-abb1-0dba15ac6e2f" Version="1.0.0.0" Publisher="CN=ali.sufiyan" />
   <Properties>
     <DisplayName>Space Blaster</DisplayName>
-    <Description>Earth is under attack, Save the mankind</Description>
+    <Description>Space Blaster</Description>
     <PublisherDisplayName>Ramez</PublisherDisplayName>
     <Logo>app-storelogo.png</Logo>
   </Properties>
@@ -16,9 +16,12 @@
   </Resources>
   <Applications>
     <Application Id="App" StartPage="index.html">
-      <VisualElements DisplayName="Space Blaster" Logo="app-logo.png" SmallLogo="app-smalllogo.png" Description="Earth is under attack, Save the mankind" ForegroundText="light" BackgroundColor="#464646">
+      <VisualElements DisplayName="Space Blaster" Logo="app-logo.png" SmallLogo="app-smalllogo.png" Description="Space Blaster" ForegroundText="light" BackgroundColor="#464646">
         <DefaultTile ShowName="allLogos" />
         <SplashScreen Image="splashscreen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
       </VisualElements>
     </Application>
   </Applications>
